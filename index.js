@@ -4,6 +4,7 @@ const { WebhookClient } = require("dialogflow-fulfillment");
 const BIGQUERY = require("@google-cloud/bigquery");
 const BIGQUERY_CLIENT = new BIGQUERY({
 projectId: "lucid-copilot-262923"
+  //Received
 });
 process.env.DEBUG = "dialogflow:debug";
 exports.dialogflowFirebaseFulfillment = functions.https.onRequest(
